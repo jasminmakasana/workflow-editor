@@ -1,27 +1,22 @@
 {
   "name": "wizard-editor",
   "version": "1.0.0",
-  "description": "## Summary",
-  "main": "index.js",
+  "description": "Workflow Editor for React.js",
+  "main": "dist/index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "babel src --out-dir dist --copy-files"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/preset-react": "^7.7.4",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.3.0",
-    "style-loader": "^1.0.1",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
-  },
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0"
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-core": "^6.26.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "author": "",
   "license": "ISC",
