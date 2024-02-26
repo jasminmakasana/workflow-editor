@@ -1,19 +1,6 @@
-# workflow-editor
-
-## Summary
-
-javascript-table is a versatile React package designed to build forms with validation in easy and simple way.
-
-## Key Features
-
-- Simple Form
-- Multistep Forms
-- Form Validation
-- Works with React.js
-
-## Example
-
-```
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 import { WorkflowEditor } from "workflow-editor";
 
 class App extends React.Component {
@@ -31,4 +18,3 @@ class App extends React.Component {
 }
 
 export default App;
-```
