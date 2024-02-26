@@ -1,7 +1,7 @@
 {
-  "name": "workflow-editor",
+  "name": "wizard-editor",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Summary",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -24,5 +24,13 @@
     "react": "^16.12.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasminmakasana/workflow-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasminmakasana/workflow-editor/issues"
+  },
+  "homepage": "https://github.com/jasminmakasana/workflow-editor#readme"
 }

@@ -14,7 +14,7 @@ javascript-table is a versatile React package designed to build forms with valid
 ## Example
 
 ```
-import { WorkflowEditor } from "workflow-editor";
+import { WorkflowEditor } from "wizard-editor";
 
 class App extends React.Component {
   constructor(props) {
