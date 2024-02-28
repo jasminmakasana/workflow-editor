@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import FormContent from "./FormContent";
 import "./css/workflowPreview.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 
 export class Workflow extends Component {
   formRefs = [];

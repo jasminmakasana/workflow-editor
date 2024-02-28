@@ -1,6 +1,6 @@
 {
   "name": "wizard-editor",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Workflow Editor for React.js",
   "main": "dist/index.js",
   "directories": {
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/jasminmakasana/workflow-editor/issues"
   },
-  "homepage": "https://github.com/jasminmakasana/workflow-editor#readme"
+  "homepage": "https://github.com/jasminmakasana/workflow-editor#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0"
+  }
 }
