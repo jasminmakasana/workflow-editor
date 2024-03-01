@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./css/workflow.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 import {
   Textbox,
   TextArea,
@@ -11,7 +13,7 @@ import {
   Date,
   Label,
 } from "./components";
-import { Workflow } from "./Workflow";
+import { Workflow } from "react-wizard-viewer";
 
 export const componentType = {
   TEXT: "text",
@@ -571,10 +573,10 @@ export class WorkflowEditor extends Component {
             showSidebar === true && showRightPart === false
               ? "center-container left-show"
               : showSidebar === true && showRightPart === true
-              ? "center-container right-show"
-              : showSidebar === false && showRightPart === true
-              ? "center-container right-show full"
-              : "center-container full"
+                ? "center-container right-show"
+                : showSidebar === false && showRightPart === true
+                  ? "center-container right-show full"
+                  : "center-container full"
           }
         >
           {showEditorPage === false && showWorkflowPage === false ? (
